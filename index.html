@@ -1,0 +1,2276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beetleware Task</title>
+    <link rel="stylesheet" href="assets/lib/slick/slick.css" />
+    <link rel="stylesheet" href="assets/lib/slick/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+  </head>
+  <body dir="rtl">
+    <div class="warp">
+      <nav class="navbar navbar-expand-xl bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/Logo.svg" alt="Alternate Text"
+          /></a>
+          <button
+            class="navbar-toggler nav-icon"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="list-unstyled navbar-nav">
+              <li>
+                <a class="nav-link d-xl-none d-block" href="#">
+                  <img src="assets/images/Logo.svg" alt="Alternate Text"
+                /></a>
+              </li>
+              <li><a class="nav-link active" href="#">الرئيسية</a></li>
+              <li><a class="nav-link" href="#">المزادات</a></li>
+              <li><a class="nav-link" href="#">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="register">
+            <a href="#">
+              <img src="assets/images/register.svg" alt="Alternate Text" />
+              <span>تسجيل الدخول</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="home">
+        <div class="container-fluid">
+          <div class="banner">
+            <div class="data">
+              <h2>اضف سومتك وين ما كنت !</h2>
+              <p>
+                منصه سومتك تجمع لك بين عرض العقارات او المشاركه في المزاد اتسهله
+                وسريعه في بيْه الكتلرونيه
+              </p>
+            </div>
+            <div class="sponsored">
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <a href="#">
+                    <img
+                      src="assets/images/banner-logo-2.png"
+                      alt="Alternate Text"
+                      class="img-fluid"
+                  /></a>
+                </div>
+                <div class="col-6">
+                  <a href="#">
+                    <img
+                      src="assets/images/banner-logo-1.png"
+                      alt="Alternate Text"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="brands__company text-center">
+            <h2>شركات المزادات</h2>
+            <div
+              class="row justify-content-lg-between justify-content-center mt-30"
+            >
+              <div class="col-lg-2 col-6">
+                <a href="#">
+                  <img
+                    src="assets/images/company-1.png"
+                    alt="Alternate Text"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div class="col-lg-2 col-6">
+                <a href="#">
+                  <img
+                    src="assets/images/company-2.png"
+                    alt="Alternate Text"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div class="col-lg-2 col-6">
+                <a href="#">
+                  <img
+                    src="assets/images/company-3.png"
+                    alt="Alternate Text"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div class="col-lg-2 col-6">
+                <a href="#">
+                  <img
+                    src="assets/images/company-4.png"
+                    alt="Alternate Text"
+                    class="img-fluid"
+                /></a>
+              </div>
+              <div class="col-lg-2 col-6">
+                <a href="#">
+                  <img
+                    src="assets/images/company-5.png"
+                    alt="Alternate Text"
+                    class="img-fluid"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="auctions">
+            <h2 class="underline">المزادات</h2>
+            <ul class="nav nav-pills mb-3 mt-40" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  القائمه
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  القادمه
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  المنهي
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button
+                    class="btn btn-outline-secondary mt-lg-50 mt-30 rounded-pill"
+                  >
+                    كل المزادات
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button
+                    class="btn btn-outline-secondary mt-lg-50 mt-30 rounded-pill"
+                  >
+                    كل المزادات
+                  </button>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="auctions__box">
+                      <div class="photo">
+                        <img
+                          src="assets/images/auctions-photo.png"
+                          alt="Alternate Text"
+                          class="img-fluid w-100"
+                        />
+                        <a href="#" class="location d-block">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span class="me-5"> شارع الاخلاص الدمام</span>
+                        </a>
+                      </div>
+                      <div class="data">
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-5"
+                        >
+                          <h3>فيلا الاخلاص</h3>
+                          <img
+                            src="assets/images/auctions-company.png"
+                            alt="Alternate Text"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="assets/images/auctions-icon.svg"
+                            alt="Alternate Text"
+                          />
+                          <span> 325.22م</span>
+                        </div>
+                        <div class="times mt-5">
+                          <table class="table">
+                            <tr>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>40</h3>
+                                  <span> ثانيه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>12</h3>
+                                  <span>دقيقه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>14</h3>
+                                  <span>ساعه</span>
+                                </div>
+                              </th>
+                              <th>:</th>
+                              <th>
+                                <div class="d-flex flex-column">
+                                  <h3>06</h3>
+                                  <span>ايام</span>
+                                </div>
+                              </th>
+                            </tr>
+                          </table>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center mt-10"
+                        >
+                          <div>
+                            <h3>عدد الاصول</h3>
+                            <span class="text-secondary"> 71</span>
+                          </div>
+                          <a
+                            href="#"
+                            class="btn btn-secondary px-20 text-white"
+                          >
+                            تفاصيل المزيد
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button
+                    class="btn btn-outline-secondary mt-lg-50 mt-30 rounded-pill"
+                  >
+                    كل المزادات
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-lg-0 mb-20">
+                <div class="social">
+                  <img
+                    src="assets/images/footer-logo.svg"
+                    alt="Alternate Text"
+                  />
+                  <p class="my-15">
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى حيث يمكنك ن تولد مثل هذا
+                    النص أو العديد من النصوص الأخرى إضافة إلى الموقع الالكترونى.
+                  </p>
+                  <ul class="list-unstyled d-flex">
+                    <li>
+                      <a href="#">
+                        <img
+                          src="assets/images/instgram.svg"
+                          alt="Alternate Text"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img
+                          src="assets/images/twitter.svg"
+                          alt="Alternate Text"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img
+                          src="assets/images/linkedIn.svg"
+                          alt="Alternate Text"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-lg-0 mb-20">
+                <h4 class="underline">القائمة الرئيسية</h4>
+                <ul class="list-unstyled mt-40">
+                  <li><a href="#"> الضوابط الإعلانية الصادرة من الهيئة</a></li>
+                  <li><a href="#">الشروط والأحكام</a></li>
+                  <li><a href="#">ترخيص الهيئة العامة للعقار</a></li>
+                  <li><a href="#">تواصل معنا</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 mb-lg-0 mb-20">
+                <h4 class="underline">الأقسام</h4>
+                <ul class="list-unstyled mt-40">
+                  <li><a href="#"> مكتبة الدعم</a></li>
+                  <li><a href="#"> الأسئلة الشائعة</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 mb-lg-0 mb-20">
+                <h4 class="underline">تواصل معنا</h4>
+                <ul class="list-unstyled mt-40">
+                  <li>
+                    <a href="#">
+                      <i class="fa-solid fa-location-dot"></i> الرياض حي الملك
+                      فيصل، السعودية</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-solid fa-phone"></i> +966 570 212 216</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-regular fa-envelope"></i> info@soum.tech</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <div class="copy-right">© جميع الحقوق محفوظة - لــ سومتك 2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/slick/slick.min.js"></script>
+    <script src="assets/js/site.js"></script>
+  </body>
+</html>
